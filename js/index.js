@@ -725,12 +725,20 @@ function animate() {
 startGame.on('click',function(){
 $('.canv').removeClass('d-none')
 $('.startGame').addClass('d-none').removeClass('d-flex')
+game.active = true
+game.over = false
+player.opacity = 1
+
 animate()
+
 })
 $('.endGame button').on('click', function(){
     $('.canv').addClass('d-none')
     $('.startGame').addClass('d-flex').removeClass('d-none')
     $('.gameOver').addClass('d-none').removeClass('d-flex')
+  
+  
+
 })
 addEventListener('keydown', ({
     key
