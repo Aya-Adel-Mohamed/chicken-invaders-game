@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Chicken Invaders</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+   <body>
+    <canvas id="canvasBg " class="canv d-none"></canvas>
+
+    <p style="position: fixed;top:0;left: 10px; font-size: 16px;z-index: 10;color: white;font-family: sans-serif;" class="d-none"><span>Score: </span><span id="scoreEl">0</span></p>
+
+ 
+    <div class="startGame" id="particles-js">
+   <!-- <div id="particles-js"></div> -->
+      
+<!-- <img src="./assets/img/chicken.gif" class="imgGif"/> -->
+
+<div class="d-flex button"><button>Start Game</button></div>
+    </div>
+    <div class="gameOver d-none position-relative endGame" id="particles-js" >
+        <img src="./assets/img/gameOver.png" alt="">
+        <button>Try Again</button>
+    </div>
+    <audio id="BombAudio" src="./assets/audio/bomb.mp3" class="BombAudio" preload="auto"></audio>
+    <audio id="chicken" src="./assets/audio/chicken.mp3" class="chicken" preload="auto"></audio>
+    <audio id="Eat" src="./assets/audio/eat.mp3" class="eat" preload="auto"></audio>
+    <!-- <audio id="shoot" src="./assets/audio/shoot.mp3" class="shoot" preload="auto"></audio> -->
+  
+
+    <script src="./js/jquery_v3.3.1.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/particles.js"></script>
+<script src="./js/index.js"></script>
+   </body>
+</html>

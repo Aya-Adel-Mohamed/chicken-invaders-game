@@ -1,0 +1,89 @@
+
+body{
+    background-image: url(../assets/img/startScreenBackground.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.gameOver{
+
+height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.imgChicken{
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+}
+.imgChicken img{
+    width: 100px;
+}
+.startGame{
+    background-image: url(../assets/img/startBg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.startGame button{
+    margin-top: 157px;
+    padding: 13px 71px;
+    background: #02030c;
+    border: #09c;
+    border: 2px solid #205f74 !important;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 0px 15px 0px #09c;
+    color: white;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    /* position: absolute;
+    top: 359px;
+    left: 549px; */
+}
+.button{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.endGame button{
+    padding: 13px 71px;
+    background: #02030c;
+    border: #09c;
+    border: 2px solid #205f74 !important;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 0px 15px 0px #09c;
+    color: white;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+}
+.imgGif{
+    width: 175px;
+    position: absolute;
+    top: 98px;
+    right: 83px;
+    transform: rotate(-12deg);
+}
+/* .particles-js-canvas-el{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} */
+/* .imgGif2{
+    width: 100px;
+    position: absolute;
+    bottom: 98px;
+    left: 83px;
+} */
